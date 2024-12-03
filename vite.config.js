@@ -1,16 +1,15 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: 'assets', // Dossier source pour Vite
+  root: 'assets',
   build: {
-    outDir: '../dist', // Dossier de sortie
-    assetsDir: 'js', // Sous-dossier pour les assets JS/CSS
+    outDir: '../dist',
     rollupOptions: {
-      input: './js/main.js', // Point d'entrée principal
+      input: './js/main.ts', // Modifie le point d'entrée pour TypeScript
     },
   },
   server: {
     port: 3000,
-    open: true, // Ouvre le navigateur automatiquement
+    open: true,
   },
 });

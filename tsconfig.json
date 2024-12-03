@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@utils/*": ["assets/js/utils/*"]
+    },
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "include": ["assets/js/**/*"],
+  "exclude": ["node_modules"]
+}

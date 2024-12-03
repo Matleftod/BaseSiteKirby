@@ -7,15 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "sass --watch assets/scss/main.scss:assets/css/main.css",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "lint": "eslint assets/js --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
     "postcss": "^8.4.49",
     "sass": "^1.81.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0",
     "vite": "^6.0.2"
   }
 }
