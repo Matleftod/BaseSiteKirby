@@ -1,0 +1,19 @@
+title: Home
+sections:
+  carousel:
+    type: fields
+    fields:
+      images:
+        label: Carousel Images
+        type: files
+        multiple: true
+        max: 10
+        accept:
+          - image
+      captions:
+        label: Captions (Optional)
+        type: structure
+        fields:
+          text:
+            label: Caption Text
+            type: text

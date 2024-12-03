@@ -1,0 +1,14 @@
+fields:
+  images:
+    label: Carousel Images
+    type: files
+    multiple: true
+    accept:
+      - image
+  captions:
+    label: Captions (Optional)
+    type: structure
+    fields:
+      text:
+        label: Caption Text
+        type: text
