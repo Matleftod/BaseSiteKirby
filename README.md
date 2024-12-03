@@ -37,3 +37,6 @@ If you are familiar with Git, you can clone Kirby's Plainkit repository from Git
 
 
 Compiler le scss : npm run scss
+Dev : npm run dev
+En Prod : npm run build
+
