@@ -1,0 +1,6 @@
+/*EXEMPLE*/
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media (max-width: 600px) { @content; }
+  }
+}

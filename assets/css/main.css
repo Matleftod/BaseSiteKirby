@@ -1,0 +1,25 @@
+/*EXEMPLE*/
+/* Exemple de reset minimal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/*EXEMPLE*/
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

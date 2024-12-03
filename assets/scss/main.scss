@@ -1,0 +1,17 @@
+@use 'variables';
+@use 'mixins';
+@use 'base';
+@use 'layout';
+@use 'components';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: variables.$background-color;
+}
+
+/*EXEMPLE*/
+@include mixins.respond-to('mobile') {
+  body {
+    font-size: 14px;
+  }
+}
