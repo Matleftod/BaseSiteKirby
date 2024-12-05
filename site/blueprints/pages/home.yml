@@ -62,3 +62,36 @@ sections:
                 feature:
                   label: Point fort
                   type: text
+                  title: Avis client
+  avis:
+      type: fields
+      fields:
+        title:
+          label: Titre de la section
+          type: text
+          default: "Ce que nos clients disent"
+        reviews:
+          label: Liste des avis
+          type: structure
+          entry: >
+            "{{ client_name }} : {{ feedback }} ({{ rating }}/5)"
+          fields:
+            client_name:
+              label: Nom du client
+              type: text
+              required: true
+            feedback:
+              label: Avis
+              type: textarea
+              required: true
+            rating:
+              label: Note
+              type: number
+              min: 1
+              max: 5
+              step: 1
+              required: true
+            date:
+              label: Date de l'avis
+              type: date
+              default: today

@@ -7,6 +7,8 @@
     <?php snippet('values') ?>
     <?php snippet('contact') ?>
     <?php snippet('tarif') ?>
+    <?php snippet('reviews') ?>
+
 </main>
 
 <?php snippet('footer') ?>

@@ -1,0 +1,52 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.reviews {
+  background-color: $background-color-light;
+  padding: 40px 20px;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: $primary-color;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    & .reviews__feedback {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-bottom: 10px;
+      color: $text-color;
+    }
+
+    & .reviews__client {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: $secondary-color;
+    }
+
+    & .reviews__rating {
+      color: $primary-color;
+      font-size: 1.5rem;
+    }
+  }
+}

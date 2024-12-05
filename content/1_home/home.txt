@@ -68,4 +68,30 @@ Tarifs:
 
 ----
 
+Reviews:
+
+- 
+  client_name: NOM
+  feedback: >
+    jdioznof zefjzen zkf zkdj. aalnd azo dal
+    daod czoz d zc z zl zecjkz cz zac ezk
+  rating: 1
+  date: 2024-12-05
+- 
+  client_name: NOM 2
+  feedback: >
+    jdioznof zefjzen zkf zkdj. aalnd azo dal
+    daod czoz d zc z zl zecjkz cz zac ezk
+  rating: 2
+  date: 2024-12-03
+- 
+  client_name: NOM 3
+  feedback: >
+    jdioznof zefjzen zkf zkdj. aalnd azo dal
+    daod czoz d zc z zl zecjkz cz zac ezk
+  rating: 5
+  date: 2024-12-27
+
+----
+
 Uuid: Bz3hpiF3oHlIXkfZ
