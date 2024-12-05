@@ -2,7 +2,7 @@ Title: mentions-legales
 
 ----
 
-Content:
+Text:
 
 # Mentions légales
 

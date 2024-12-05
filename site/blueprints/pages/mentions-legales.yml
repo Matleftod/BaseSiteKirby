@@ -4,7 +4,7 @@ fields:
     label: Titre de la page
     type: text
     default: Mentions légales
-  content:
+  text:
     label: Contenu
     type: textarea
     size: large
