@@ -1,0 +1,65 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.about {
+  background-color: $background-color;
+  padding: 60px 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px;
+
+    @include respond-to('mobile') {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  &__content {
+    flex: 1;
+
+    @include respond-to('mobile') {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 20px;
+
+    @include respond-to('mobile') {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: $text-color;
+
+    strong {
+      color: $primary-color;
+    }
+
+    @include respond-to('mobile') {
+      font-size: 1rem;
+    }
+  }
+
+  &__image {
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
