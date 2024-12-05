@@ -31,11 +31,11 @@ html, body {
 }
 .carousel__caption {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 8px;
+  left: 8px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
-  padding: 5px 10px;
+  padding: 8px 16px;
   border-radius: 3px;
 }
 .carousel__prev, .carousel__next {
@@ -45,21 +45,25 @@ html, body {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: none;
-  padding: 10px;
+  padding: 16px;
   cursor: pointer;
   z-index: 10;
+  transition: background-color 0.3s;
+}
+.carousel__prev:hover, .carousel__next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .carousel__prev {
-  left: 10px;
+  left: 16px;
 }
 .carousel__next {
-  right: 10px;
+  right: 16px;
 }
 
 .header {
-  background-color: #f8f9fa;
+  background-color: #f5f5f5;
   border-bottom: 1px solid #eaeaea;
-  padding: 15px 30px;
+  padding: 16px 24px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -75,7 +79,7 @@ html, body {
   .header__container {
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
   }
 }
 .header__logo img {
@@ -92,11 +96,11 @@ html, body {
 }
 .header__nav {
   flex: 1;
-  margin-left: 30px;
+  margin-left: 24px;
 }
 .header__nav .header__menu {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -105,7 +109,7 @@ html, body {
   .header__nav .header__menu {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
   }
 }
 .header__nav .header__menu-item a {
@@ -114,7 +118,7 @@ html, body {
   color: #343a40;
   font-weight: 500;
   font-size: 16px;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -125,7 +129,7 @@ html, body {
 @media (max-width: 768px) {
   .header__nav .header__menu-item a {
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 16px 24px;
   }
 }
 .header__nav .header__menu-item.active a {
@@ -137,7 +141,7 @@ html, body {
   background-color: #007bff;
   color: #ffffff;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 16px 24px;
   border-radius: 5px;
   font-weight: 600;
   transition: background-color 0.3s, transform 0.3s;
@@ -149,7 +153,7 @@ html, body {
 @media (max-width: 768px) {
   .header__cta {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 16px 24px;
   }
 }
 

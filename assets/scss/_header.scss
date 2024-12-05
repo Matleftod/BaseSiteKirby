@@ -1,12 +1,13 @@
-@use 'mixins';
+@use 'mixins' as *;
+@use 'variables' as *;
 
 .header {
-  background-color: #f8f9fa; // Couleur de fond
-  border-bottom: 1px solid #eaeaea; // Séparateur discret
-  padding: 15px 30px; // Espacement amélioré
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
+  padding: $spacing-md $spacing-lg;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: $z-index-header;
 
   &__container {
     display: flex;
@@ -15,10 +16,10 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    @include mixins.respond-to('mobile') {
+    @include respond-to('mobile') {
       flex-direction: column;
       align-items: center;
-      gap: 15px;
+      gap: $spacing-md;
     }
   }
 
@@ -30,74 +31,74 @@
       transform: scale(1.1);
     }
 
-    @include mixins.respond-to('mobile') {
+    @include respond-to('mobile') {
       max-height: 50px;
     }
   }
 
   &__nav {
     flex: 1;
-    margin-left: 30px;
+    margin-left: $spacing-lg;
 
     .header__menu {
       display: flex;
-      gap: 20px;
+      gap: $spacing-lg;
       list-style: none;
       padding: 0;
       margin: 0;
 
-      @include mixins.respond-to('mobile') {
+      @include respond-to('mobile') {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: $spacing-md;
       }
     }
 
     .header__menu-item a {
       display: inline-block;
       text-decoration: none;
-      color: #343a40;
+      color: $text-color;
       font-weight: 500;
-      font-size: 16px;
-      padding: 8px 12px;
+      font-size: $font-size-base;
+      padding: $spacing-sm $spacing-md;
       border-radius: 4px;
       transition: background-color 0.3s, color 0.3s;
 
       &:hover {
-        background-color: #007bff;
+        background-color: $primary-color;
         color: #fff;
       }
 
-      @include mixins.respond-to('mobile') {
-        font-size: 14px;
-        padding: 10px 16px;
+      @include respond-to('mobile') {
+        font-size: $font-size-sm;
+        padding: $spacing-md $spacing-lg;
       }
     }
 
     .header__menu-item.active a {
-      background-color: #007bff;
+      background-color: $primary-color;
       color: #fff;
       font-weight: 600;
     }
   }
 
   &__cta {
-    background-color: #007bff;
+    background-color: $primary-color;
     color: #ffffff;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: $spacing-md $spacing-lg;
     border-radius: 5px;
     font-weight: 600;
     transition: background-color 0.3s, transform 0.3s;
 
     &:hover {
-      background-color: #0056b3;
+      background-color: $primary-hover;
       transform: scale(1.05);
     }
 
-    @include mixins.respond-to('mobile') {
-      font-size: 14px;
-      padding: 10px 20px;
+    @include respond-to('mobile') {
+      font-size: $font-size-sm;
+      padding: $spacing-md $spacing-lg;
     }
   }
 }

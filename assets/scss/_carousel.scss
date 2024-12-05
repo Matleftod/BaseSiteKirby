@@ -1,3 +1,6 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
 .carousel {
   position: relative;
   overflow: hidden;
@@ -23,11 +26,11 @@
 
   &__caption {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: $spacing-sm;
+    left: $spacing-sm;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
+    padding: $spacing-sm $spacing-md;
     border-radius: 3px;
   }
 
@@ -39,16 +42,21 @@
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: $spacing-md;
     cursor: pointer;
-    z-index: 10;
+    z-index: $z-index-carousel;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
   }
 
   &__prev {
-    left: 10px;
+    left: $spacing-md;
   }
 
   &__next {
-    right: 10px;
+    right: $spacing-md;
   }
 }
