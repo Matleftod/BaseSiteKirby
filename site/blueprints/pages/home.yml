@@ -17,3 +17,23 @@ sections:
           text:
             label: Caption Text
             type: text
+
+  services:
+    type: fields
+    fields:
+      services:
+        label: Prestations
+        type: structure
+        fields:
+          title:
+            label: Titre
+            type: text
+          description:
+            label: Description
+            type: textarea
+          icon:
+            label: Icône ou Image
+            type: files
+            multiple: false
+            accept:
+              - image
