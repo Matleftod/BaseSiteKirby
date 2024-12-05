@@ -8,7 +8,7 @@
       <nav class="footer__nav">
         <ul class="footer__menu">
           <li class="footer__menu-item"><a href="<?= url('about') ?>">À propos</a></li>
-          <li class="footer__menu-item"><a href="<?= url('terms') ?>">Mentions légales</a></li>
+          <li class="footer__menu-item"><a href="<?= url('mentions-legales') ?>">Mentions légales</a></li>
           <li class="footer__menu-item"><a href="<?= url('privacy') ?>">Politique de confidentialité</a></li>
           <li class="footer__menu-item"><a href="<?= url('contact') ?>">Contact</a></li>
         </ul>

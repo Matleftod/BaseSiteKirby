@@ -1,0 +1,53 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.mentions {
+  padding: 60px 20px;
+  background-color: $background-color;
+
+  &__container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 2rem;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $text-color;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    h2, h3 {
+      color: $primary-color;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: $link-color;
+      text-decoration: underline;
+
+      &:hover {
+        color: $link-hover-color;
+      }
+    }
+
+    ul, ol {
+      margin: 20px 0;
+      padding-left: 40px;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

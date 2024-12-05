@@ -1,0 +1,28 @@
+Title: mentions-legales
+
+----
+
+Content:
+
+# Mentions légales
+
+## Responsable de la publication
+Nom de la société : [Votre société]  
+Adresse : 123 rue Exemple, 75000 Paris
+Téléphone : +33 (0)1 23 45 67 89  
+E-mail : contact@exemple.com
+
+## Hébergement
+Nom de l’hébergeur : OVH  
+Adresse : 2 rue Kellermann, 59100 Roubaix  
+Téléphone : +33 (0)9 72 10 10 07  
+Site web : [https://www.ovh.com](https://www.ovh.com)
+
+## Collecte des données
+Conformément au RGPD, vos données sont collectées et stockées dans le respect des lois européennes en vigueur.
+
+Pour toute question ou réclamation, veuillez nous contacter à l’adresse suivante : contact@exemple.com
+
+----
+
+Uuid: Jl5JA4VrBoW00g3U

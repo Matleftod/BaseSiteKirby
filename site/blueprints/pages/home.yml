@@ -37,3 +37,28 @@ sections:
             multiple: false
             accept:
               - image
+  tarif:
+      type: fields
+      fields:
+        tarifs:
+          label: Liste des tarifs
+          type: structure
+          fields:
+            title:
+              label: Nom du tarif
+              type: text
+            price:
+              label: Prix (€)
+              type: number
+              min: 0
+            description:
+              label: Description
+              type: textarea
+              size: medium
+            features:
+              label: Points forts
+              type: structure
+              fields:
+                feature:
+                  label: Point fort
+                  type: text

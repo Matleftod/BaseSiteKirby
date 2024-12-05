@@ -27,4 +27,45 @@ Services:
 
 ----
 
+Tarifs:
+
+- 
+  title: Tarif 1
+  price: 100
+  description: >
+    vbefiuvnenvzenocnz zenoinze keznze ckze
+    cezkzej cezqldn azdznao zc z zeozeo zd
+    ozedoa d
+  features:
+    - 
+      feature: AAA
+    - 
+      feature: BBB
+- 
+  title: Tarif 2
+  price: 1000
+  description: >
+    vbefiuvnenvzenocnz zenoinze keznze ckze
+    cezkzej cezqldn azdznao zc z zeozeo zd
+    ozedoa d
+  features:
+    - 
+      feature: AAA
+    - 
+      feature: BBB
+- 
+  title: Tarif 3
+  price: 10000
+  description: >
+    vbefiuvnenvzenocnz zenoinze keznze ckze
+    cezkzej cezqldn azdznao zc z zeozeo zd
+    ozedoa d
+  features:
+    - 
+      feature: AAA
+    - 
+      feature: BBB
+
+----
+
 Uuid: Bz3hpiF3oHlIXkfZ
