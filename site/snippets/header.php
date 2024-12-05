@@ -16,12 +16,20 @@
   <?php endif; ?>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="<?= url() ?>">Accueil</a></li>
-        <li><a href="<?= url('about') ?>">À propos</a></li>
-        <li><a href="<?= url('contact') ?>">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="header__container">
+      <a href="<?= url() ?>" class="header__logo">
+        <img src="<?= url('assets/images/logo.svg') ?>" alt="Logo">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="<?= url() ?>">Accueil</a></li>
+          <li class="header__menu-item"><a href="<?= url('formules') ?>">Formules</a></li>
+          <li class="header__menu-item"><a href="<?= url('tarifs') ?>">Tarifs</a></li>
+          <li class="header__menu-item"><a href="<?= url('locations') ?>">Locations</a></li>
+          <li class="header__menu-item"><a href="<?= url('contact') ?>">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="<?= url('contact') ?>" class="header__cta">Nous contacter</a>
+    </div>
   </header>
