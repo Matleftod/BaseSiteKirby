@@ -21,10 +21,10 @@ sections:
         label: Message
         text: >
           {{ page.message | kirbytext | excerpt(20) }}
-      customStatus:
+      customstatus:
         label: Statut
         type: text
         sortable: true
         text: >
-          {{ page.CustomStatus }}
+          {{ page.customstatus == "read" ? "Lu" : "Non lu" }}
     create: false

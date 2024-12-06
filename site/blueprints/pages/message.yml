@@ -16,6 +16,10 @@ fields:
     label: Date
     type: text
     readonly: true
-  customStatus:
+  customstatus:
     label: Statut
-    type: toggle
+    type: select
+    options:
+      unread: Non lu
+      read: Lu
+    default: unread
