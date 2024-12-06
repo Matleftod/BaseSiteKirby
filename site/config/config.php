@@ -4,6 +4,7 @@ return [
     'debug' => true,
     'panel' => [
         'install' => true,
+        'css' => 'assets/css/panel.css',
     ],
     'languages' => false, // Ajoute plus tard si multi-langues nécessaires
     'thumbs' => [
