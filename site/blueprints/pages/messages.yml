@@ -19,12 +19,11 @@ sections:
         sortable: true
       message:
         label: Message
-        text: >
-          {{ page.message | kirbytext | excerpt(20) }}
       customstatus:
         label: Statut
         type: text
-        sortable: true
-        text: >
-          {{ page.customstatus == "read" ? "Lu" : "Non lu" }}
     create: false
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false

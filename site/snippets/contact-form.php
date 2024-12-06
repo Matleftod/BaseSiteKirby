@@ -25,11 +25,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     ]
                 ]);
 
-                // Change explicitement le statut à "listed" (publié)
-                $newMessage->changeStatus('listed');
-
-                // Message de succès
-                $success = "Merci pour votre message, nous vous répondrons rapidement.";
+                // Redirection avec paramètre de succès
+                header("Location: " . $page->url() . "?success=1#contact-form");
+                exit;
             } catch (Exception $e) {
                 $error = "Une erreur s'est produite lors de l'envoi de votre message.";
             }
@@ -37,7 +35,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+if (isset($_GET['success'])) {
+    $success = "Merci pour votre message, nous vous répondrons rapidement.";
+}
 ?>
+<?php if (isset($success)): ?>
+    <script>
+        // Supprime le paramètre "success" de l'URL après affichage
+        const url = new URL(window.location.href);
+        url.searchParams.delete('success');
+        window.history.replaceState({}, document.title, url.toString());
+    </script>
+<?php endif; ?>
 
 <section id="contact-form" class="contact-form">
   <div class="contact-form__container">
@@ -66,36 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php endif; ?>
   </div>
 </section>
-
-<script>
-  // Interception de la soumission du formulaire
-  document.querySelector('.contact-form__form').addEventListener('submit', async (event) => {
-    event.preventDefault(); // Empêche le rechargement de la page
-
-    const form = event.target;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (response.ok) {
-        form.reset(); // Réinitialise le formulaire
-        document.querySelector('.success').textContent = "Merci pour votre message, nous vous répondrons rapidement.";
-        document.querySelector('.success').style.display = 'block';
-        document.querySelector('.error').style.display = 'none';
-      } else {
-        throw new Error('Une erreur est survenue lors de l'envoi de votre message.');
-      }
-    } catch (error) {
-      document.querySelector('.error').textContent = error.message;
-      document.querySelector('.error').style.display = 'block';
-      document.querySelector('.success').style.display = 'none';
-    }
-  });
-</script>
 
 <style>
   .error {

@@ -16,4 +16,20 @@ return [
             ],
         ],
     ],
+    'routes' => [
+        // Bloquer les URL de la page messages
+        [
+            'pattern' => 'messages',
+            'action'  => function () {
+                go('/');
+            }
+        ],
+        // Bloquer les URL des sous-pages de messages
+        [
+            'pattern' => 'messages/(:any)',
+            'action'  => function () {
+                go('/');
+            }
+        ]
+    ]
 ];

@@ -20,6 +20,10 @@ fields:
     label: Statut
     type: select
     options:
-      unread: Non lu
-      read: Lu
-    default: unread
+      Non lu: Non lu
+      Lu: Lu
+    default: Non lu
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false
