@@ -3,13 +3,11 @@
 Kirby::plugin('custom/notifications', [
     'areas' => [
         'messages' => function ($kirby) {
-            // Nombre de messages non lus
-            $unreadMessages = page('messages')->children()->filterBy('customstatus', 'unread')->count();
-
+            $unreadMessages = page('messages')->childrenAndDrafts()->filterBy('customstatus', 'Non lu')->count();
             return [
                 'label' => 'Messages',
                 'icon' => 'email',
-                'link' => 'messages',
+                'link' => 'pages/messages',
                 'menu' => true,
                 'data' => [
                     'unread' => $unreadMessages,
@@ -25,4 +23,5 @@ Kirby::plugin('custom/notifications', [
             }
         }
     ],
-]);
+])
+?>
