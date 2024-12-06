@@ -8,6 +8,7 @@
     <?php snippet('contact') ?>
     <?php snippet('tarif') ?>
     <?php snippet('reviews') ?>
+    <?php snippet('contact-form') ?>
 
 </main>
 

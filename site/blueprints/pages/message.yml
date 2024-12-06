@@ -1,0 +1,16 @@
+title: Message
+preset: page
+fields:
+  name:
+    label: Nom
+    type: text
+  email:
+    label: Email
+    type: email
+  message:
+    label: Message
+    type: textarea
+  date:
+    label: Date
+    type: text
+    readonly: true

@@ -1,0 +1,16 @@
+title: Messages
+preset: page
+fields:
+  info:
+    label: Info
+    type: info
+    text: Cette page contient tous les messages soumis par le formulaire de contact.
+sections:
+  drafts:
+    headline: Brouillons
+    type: pages
+    status: draft
+  published:
+    headline: Messages publiés
+    type: pages
+    status: listed
