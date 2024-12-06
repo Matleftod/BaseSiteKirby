@@ -1,16 +1,21 @@
 title: Message
-preset: page
 fields:
   name:
     label: Nom
     type: text
+    readonly: true
   email:
     label: Email
     type: email
+    readonly: true
   message:
     label: Message
     type: textarea
+    readonly: true
   date:
     label: Date
     type: text
     readonly: true
+  customStatus:
+    label: Statut
+    type: toggle

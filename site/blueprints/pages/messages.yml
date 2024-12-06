@@ -1,16 +1,30 @@
 title: Messages
-preset: page
-fields:
-  info:
-    label: Info
-    type: info
-    text: Cette page contient tous les messages soumis par le formulaire de contact.
 sections:
-  drafts:
-    headline: Brouillons
+  messages:
     type: pages
-    status: draft
-  published:
-    headline: Messages publiés
-    type: pages
-    status: listed
+    headline: Messages reçus
+    layout: table
+    columns:
+      name:
+        label: Nom
+        type: text
+        sortable: true
+      email:
+        label: Email
+        type: text
+        sortable: false
+      date:
+        label: Date
+        type: datetime
+        sortable: true
+      message:
+        label: Message
+        text: >
+          {{ page.message | kirbytext | excerpt(20) }}
+      customStatus:
+        label: Statut
+        type: text
+        sortable: true
+        text: >
+          {{ page.CustomStatus }}
+    create: false
