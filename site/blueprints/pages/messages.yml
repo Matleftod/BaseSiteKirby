@@ -19,9 +19,16 @@ sections:
         sortable: true
       message:
         label: Message
+        text: >
+          {{ page.message | kirbytext | excerpt(20) }}
       customstatus:
         label: Statut
         type: text
+        sortable: true
+    filters:
+      - customstatus
+      - date
+    search: true
     create: false
 options:
   preview: false
