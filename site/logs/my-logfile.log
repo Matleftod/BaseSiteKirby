@@ -43,3 +43,156 @@ Stack trace:
   'menu' => true,
   'info' => 'Notifications statiques : 3',
 )
+[2024-12-09 14:38:17.792331] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:39:49.483202] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:40:53.276349] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:40:54.118998] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:40:54.374155] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:40:54.609513] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:41:19.587320] [error] Error: Call to undefined method Kirby\Cms\App::log() in /Users/mat/Pro/BaseSiteKirby/site/plugins/unread-counter/index.php:9
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(150): Kirby\Filesystem\F::{closure}(Object(Kirby\Cms\App))
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(177): Kirby\Cms\Loader->resolve(Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(75): Kirby\Cms\Loader->resolveArea(Object(Closure))
+#3 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(60): Kirby\Cms\Loader->areas()
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(273): Kirby\Panel\Panel::areas()
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#6 [internal function]: Kirby\Http\Route->{closure}('site')
+#7 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#9 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#10 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#11 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#12 {main}
+[2024-12-09 14:42:09.085484] [error] Error: Call to undefined method Kirby\Cms\App::logger() in /Users/mat/Pro/BaseSiteKirby/site/plugins/unread-counter/index.php:9
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(150): Kirby\Filesystem\F::{closure}(Object(Kirby\Cms\App))
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(177): Kirby\Cms\Loader->resolve(Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(75): Kirby\Cms\Loader->resolveArea(Object(Closure))
+#3 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(60): Kirby\Cms\Loader->areas()
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(273): Kirby\Panel\Panel::areas()
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#6 [internal function]: Kirby\Http\Route->{closure}('site')
+#7 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#9 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#10 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#11 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#12 {main}
+[2024-12-09 14:42:22.899355] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:43:49.772665] [error] Error: Call to undefined method Kirby\Cms\App::log() in /Users/mat/Pro/BaseSiteKirby/site/plugins/unread-counter/index.php:11
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(150): Kirby\Filesystem\F::{closure}(Object(Kirby\Cms\App))
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(177): Kirby\Cms\Loader->resolve(Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(75): Kirby\Cms\Loader->resolveArea(Object(Closure))
+#3 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(60): Kirby\Cms\Loader->areas()
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(273): Kirby\Panel\Panel::areas()
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#6 [internal function]: Kirby\Http\Route->{closure}('site')
+#7 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#9 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#10 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#11 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#12 {main}
+[2024-12-09 14:45:41.206666] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}
+[2024-12-09 14:45:56.116636] [error] InvalidArgumentException: Invalid route parameters in /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(151): Kirby\Http\Router->__construct(Array)
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(277): Kirby\Http\Router::execute('site', 'GET', Array, Object(Closure))
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('site')
+#3 [internal function]: Kirby\Http\Route->{closure}('site')
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'site')
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/site', 'GET')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/site', 'GET')
+#7 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#8 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#9 {main}

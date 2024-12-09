@@ -1,5 +1,11 @@
 title: Site
 
 sections:
+  unreadMessages:
+    type: info
+    headline: Messages non lus
+    text: >
+      {{ page("messages").childrenAndDrafts.filterBy("customstatus", "Non lu").count }} message(s) non lu(s).
   pages:
     type: pages
+    headline: Pages
