@@ -26,5 +26,9 @@ fields:
     readonly: true
   date:
     label: Date
-    type: datetime
+    type: text
     readonly: true
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false

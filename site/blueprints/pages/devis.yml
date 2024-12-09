@@ -26,4 +26,9 @@ sections:
       date:
         label: Date
         type: datetime
+    search: true
     create: false
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false

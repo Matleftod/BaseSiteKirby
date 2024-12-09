@@ -76,14 +76,3 @@ if (isset($_GET['success'])) {
     <?php endif; ?>
   </div>
 </section>
-
-<style>
-  .error {
-    color: red;
-    margin-top: 10px;
-  }
-  .success {
-    color: green;
-    margin-top: 10px;
-  }
-</style>
