@@ -2,37 +2,38 @@
   <div class="quote-form__container">
     <h2 class="quote-form__title">Obtenez un devis rapide</h2>
     <form id="quote-form" action="<?= $page->url() ?>" method="POST" class="quote-form__form">
-      <div class="quote-form__field">
+    <input type="hidden" name="action" value="quote">
+    <div class="quote-form__field">
         <label for="name">Nom *</label>
         <input type="text" id="name" name="name" required>
-      </div>
-      <div class="quote-form__field">
+    </div>
+    <div class="quote-form__field">
         <label for="email">Email *</label>
         <input type="email" id="email" name="email" required>
-      </div>
-      <div class="quote-form__field">
+    </div>
+    <div class="quote-form__field">
         <label for="service">Type de service *</label>
         <select id="service" name="service" required>
-          <option value="cleaning">Nettoyage</option>
-          <option value="key_management">Gestion des clés</option>
-          <option value="rental">Location saisonnière</option>
+        <option value="cleaning">Nettoyage</option>
+        <option value="key_management">Gestion des clés</option>
+        <option value="rental">Location saisonnière</option>
         </select>
-      </div>
-      <div class="quote-form__field">
+    </div>
+    <div class="quote-form__field">
         <label for="pieces">Nombre de pièces *</label>
         <input type="number" id="pieces" name="pieces" value="1" min="1" required>
-      </div>
-      <div class="quote-form__field">
+    </div>
+    <div class="quote-form__field">
         <label for="frequency">Fréquence *</label>
         <select id="frequency" name="frequency" required>
-          <option value="once">Une fois</option>
-          <option value="weekly">Hebdomadaire</option>
+        <option value="once">Une fois</option>
+        <option value="weekly">Hebdomadaire</option>
         </select>
-      </div>
-      <div class="quote-form__result" id="quote-result">
+    </div>
+    <div class="quote-form__result" id="quote-result">
         Devis estimé : 0 €
-      </div>
-      <button type="submit" class="quote-form__submit">Envoyer la demande de devis</button>
+    </div>
+    <button type="submit" class="quote-form__submit">Envoyer la demande de devis</button>
     </form>
   </div>
 </section>
@@ -53,7 +54,7 @@
 </script>
 <?php
 return function ($kirby, $site, $page) {
-    if ($kirby->request()->is('POST')) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && get('action') === 'quote') {
         $name = get('name');
         $email = get('email');
         $service = get('service');

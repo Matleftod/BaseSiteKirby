@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && get('action') === 'contact') {
     $name = get('name');
     $email = get('email');
     $message = get('message');
@@ -52,6 +52,7 @@ if (isset($_GET['success'])) {
   <div class="contact-form__container">
     <h2 class="contact-form__title">Contactez-nous</h2>
     <form action="<?= $page->url() ?>#contact-form" method="POST" class="contact-form__form">
+      <input type="hidden" name="action" value="contact">
       <div class="contact-form__field">
         <label for="name">Votre nom *</label>
         <input type="text" id="name" name="name" required>
