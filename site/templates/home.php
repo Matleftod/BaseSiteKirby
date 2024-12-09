@@ -9,6 +9,7 @@
     <?php snippet('tarif') ?>
     <?php snippet('reviews') ?>
     <?php snippet('contact-form') ?>
+    <?php snippet('carousel', ['block' => $page]) ?>
 
 </main>
 
