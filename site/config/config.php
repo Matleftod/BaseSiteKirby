@@ -32,5 +32,7 @@ return [
                 go('/');
             }
         ]
-    ]
+    ],
+    'bvdputte.kirbylog.logname' => 'my-logfile.log', // Nom personnalisé du fichier log
+    'bvdputte.kirbylog.defaultloglevel' => 'debug', // Niveau de log par défaut
 ];

@@ -1,0 +1,45 @@
+[2024-12-06 17:08:09.461730] [info] Test des notifications démarré.
+[2024-12-06 17:08:09.462990] [debug] Messages non lus : 0
+[2024-12-06 17:08:53.567348] [info] Test des notifications démarré.
+[2024-12-06 17:08:53.568643] [debug] Messages non lus : 0
+[2024-12-06 17:10:19.040112] [info] Test des notifications démarré.
+[2024-12-06 17:10:19.040971] [debug] Messages non lus : 0
+[2024-12-06 17:10:20.742264] [info] Test des notifications démarré.
+[2024-12-06 17:10:20.743017] [debug] Messages non lus : 0
+[2024-12-06 17:11:03.065475] [error] Whoops\Exception\ErrorException: Array to string conversion in /Users/mat/Pro/BaseSiteKirby/vendor/katzgrau/klogger/src/Logger.php:285
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/vendor/katzgrau/klogger/src/Logger.php(285): Whoops\Run->handleError(2, 'Array to string...', '/Users/mat/Pro/...', 285)
+#1 /Users/mat/Pro/BaseSiteKirby/vendor/katzgrau/klogger/src/Logger.php(214): Katzgrau\KLogger\Logger->formatMessage('debug', Array, Array)
+#2 /Users/mat/Pro/BaseSiteKirby/vendor/psr/log/Psr/Log/AbstractLogger.php(126): Katzgrau\KLogger\Logger->log('debug', Array, Array)
+#3 /Users/mat/Pro/BaseSiteKirby/site/plugins/kirby-log/src/Logger.php(49): Psr\Log\AbstractLogger->debug(Array, Array)
+#4 /Users/mat/Pro/BaseSiteKirby/site/plugins/kirby-log/index.php(18): bvdputte\kirbyLog\Logger->log(Array, 'debug', Array)
+#5 [internal function]: Kirby\Cms\Site->{closure}(Array, 'debug')
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/HasMethods.php(39): Closure->call(Object(Kirby\Cms\Site), Array, 'debug')
+#7 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Site.php(110): Kirby\Cms\Site->callMethod('log', Array)
+#8 /Users/mat/Pro/BaseSiteKirby/site/plugins/notifications/index.php(21): Kirby\Cms\Site->__call('log', Array)
+#9 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(150): Kirby\Filesystem\F::{closure}(Object(Kirby\Cms\App))
+#10 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Loader.php(88): Kirby\Cms\Loader->resolve(Object(Closure))
+#11 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(60): Kirby\Cms\Loader->areas()
+#12 /Users/mat/Pro/BaseSiteKirby/kirby/src/Panel/Panel.php(273): Kirby\Panel\Panel::areas()
+#13 /Users/mat/Pro/BaseSiteKirby/kirby/config/routes.php(129): Kirby\Panel\Panel::router('system')
+#14 [internal function]: Kirby\Http\Route->{closure}('system')
+#15 /Users/mat/Pro/BaseSiteKirby/kirby/src/Http/Router.php(120): Closure->call(Object(Kirby\Http\Route), 'system')
+#16 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(338): Kirby\Http\Router->call('panel/system', 'GET')
+#17 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->call('panel/system', 'GET')
+#18 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#19 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#20 {main}
+[2024-12-06 17:12:34.367394] [debug] array (
+  'label' => 'Test Notifications',
+  'icon' => 'email',
+  'link' => '/panel/pages/messages',
+  'menu' => true,
+  'info' => 'Notifications statiques : 3',
+)
+[2024-12-06 17:12:35.798157] [debug] array (
+  'label' => 'Test Notifications',
+  'icon' => 'email',
+  'link' => '/panel/pages/messages',
+  'menu' => true,
+  'info' => 'Notifications statiques : 3',
+)

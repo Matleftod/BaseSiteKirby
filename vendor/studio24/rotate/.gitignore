@@ -1,0 +1,6 @@
+tests/tmp/*
+!tests/tmp/.gitkeep
+
+# Composer
+vendor
+composer.lock
