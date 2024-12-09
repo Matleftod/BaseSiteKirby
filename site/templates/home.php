@@ -10,6 +10,7 @@
     <?php snippet('reviews') ?>
     <?php snippet('contact-form') ?>
     <?php snippet('carousel', ['block' => $page]) ?>
+    <?php snippet('devis') ?>
 
 </main>
 

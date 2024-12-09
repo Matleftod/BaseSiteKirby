@@ -1,0 +1,29 @@
+title: Devis
+sections:
+  devis:
+    type: pages
+    template: quote
+    layout: table
+    columns:
+      name:
+        label: Nom
+        type: text
+      email:
+        label: Email
+        type: email
+      service:
+        label: Service
+        type: text
+      pieces:
+        label: Nombre de pièces
+        type: number
+      frequency:
+        label: Fréquence
+        type: text
+      quote:
+        label: Prix estimé
+        type: number
+      date:
+        label: Date
+        type: datetime
+    create: false

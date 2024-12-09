@@ -718,6 +718,86 @@ html, body {
   margin-bottom: 10px;
 }
 
+.quote-form {
+  background-color: #e2e2e2;
+  padding: 40px 20px;
+}
+.quote-form__container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.quote-form__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+.quote-form__field {
+  margin-bottom: 20px;
+}
+.quote-form__field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #343a40;
+}
+.quote-form__field input,
+.quote-form__field select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.quote-form__field input[type=number] {
+  -moz-appearance: textfield;
+}
+.quote-form__field select {
+  cursor: pointer;
+}
+.quote-form__result {
+  background-color: #e2e2e2;
+  color: #343a40;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.quote-form__submit {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.quote-form__submit:hover {
+  background-color: rgb(0, 98.4, 204);
+}
+.quote-form .error {
+  color: #c20404;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.quote-form .success {
+  color: #04c25d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;

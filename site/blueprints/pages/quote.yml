@@ -1,0 +1,30 @@
+title: Quote
+fields:
+  name:
+    label: Nom
+    type: text
+    readonly: true
+  email:
+    label: Email
+    type: email
+    readonly: true
+  service:
+    label: Service
+    type: text
+    readonly: true
+  pieces:
+    label: Nombre de pièces
+    type: number
+    readonly: true
+  frequency:
+    label: Fréquence
+    type: text
+    readonly: true
+  quote:
+    label: Prix estimé
+    type: number
+    readonly: true
+  date:
+    label: Date
+    type: datetime
+    readonly: true
