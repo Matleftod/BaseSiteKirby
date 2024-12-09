@@ -31,6 +31,20 @@ return [
             'action'  => function () {
                 go('/');
             }
+        ],
+        // Bloquer les URL de la page devis
+        [
+            'pattern' => 'devis',
+            'action'  => function () {
+                go('/');
+            }
+        ],
+        // Bloquer les URL des sous-pages de devis
+        [
+            'pattern' => 'devis/(:any)',
+            'action'  => function () {
+                go('/');
+            }
         ]
     ],
     'bvdputte.kirbylog.logname' => 'my-logfile.log', // Nom personnalisé du fichier log
