@@ -1,0 +1,21 @@
+Title: Lieu1 Copier
+
+----
+
+Description: lieu 1 zebi
+
+----
+
+Category: Restaurant
+
+----
+
+Location: 48.8566,2.3522
+
+----
+
+Image: - file://rb4EUk1xwbhKIgJC
+
+----
+
+Uuid: IO8iqAc2aq2tl9xW

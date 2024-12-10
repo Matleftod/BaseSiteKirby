@@ -14,7 +14,7 @@
     <?php snippet('blog-list') ?>
     <?php snippet('faq') ?>
     <?php snippet('map') ?>
-
+    <?php snippet('guide') ?>
 </main>
 
 <?php snippet('footer') ?>

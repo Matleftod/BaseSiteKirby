@@ -341,3 +341,25 @@ Stack trace:
 #17 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
 #18 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
 #19 {main}
+[2024-12-10 14:34:14.603065] [error] Error: Call to a member function children() on null in /Users/mat/Pro/BaseSiteKirby/site/snippets/guide.php:7
+Stack trace:
+#0 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(425): include()
+#1 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated('/Users/mat/Pro/...', Array)
+#2 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /Users/mat/Pro/BaseSiteKirby/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load('/Users/mat/Pro/...', NULL, Array)
+#4 /Users/mat/Pro/BaseSiteKirby/kirby/src/Template/Snippet.php(172): Kirby\Toolkit\Tpl::load('/Users/mat/Pro/...', Array)
+#5 /Users/mat/Pro/BaseSiteKirby/kirby/config/components.php(301): Kirby\Template\Snippet::factory('guide', Array, false)
+#6 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1572): Kirby\Cms\Core->{closure}(Object(Kirby\Cms\App), 'guide', Array, false)
+#7 /Users/mat/Pro/BaseSiteKirby/kirby/config/helpers.php(531): Kirby\Cms\App->snippet('guide', Array, false, false)
+#8 /Users/mat/Pro/BaseSiteKirby/site/templates/home.php(17): snippet('guide')
+#9 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(425): include('/Users/mat/Pro/...')
+#10 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated('/Users/mat/Pro/...', Array)
+#11 /Users/mat/Pro/BaseSiteKirby/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#12 /Users/mat/Pro/BaseSiteKirby/kirby/src/Toolkit/Tpl.php(36): Kirby\Filesystem\F::load('/Users/mat/Pro/...', NULL, Array)
+#13 /Users/mat/Pro/BaseSiteKirby/kirby/src/Template/Template.php(163): Kirby\Toolkit\Tpl::load('/Users/mat/Pro/...', Array)
+#14 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/Page.php(1020): Kirby\Template\Template->render(Array)
+#15 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(784): Kirby\Cms\Page->render()
+#16 /Users/mat/Pro/BaseSiteKirby/kirby/src/Cms/App.php(1191): Kirby\Cms\App->io(Object(Kirby\Cms\Page))
+#17 /Users/mat/Pro/BaseSiteKirby/index.php(5): Kirby\Cms\App->render()
+#18 /Users/mat/Pro/BaseSiteKirby/kirby/router.php(15): require('/Users/mat/Pro/...')
+#19 {main}

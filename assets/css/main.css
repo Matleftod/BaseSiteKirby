@@ -977,6 +977,56 @@ html, body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.guide {
+  padding: 60px 20px;
+  background-color: #e2e2e2;
+}
+.guide__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.guide__title {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.guide__places, .guide__events {
+  margin-bottom: 40px;
+}
+.guide__places h3, .guide__events h3 {
+  font-size: 1.8rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+.guide__places ul, .guide__events ul {
+  list-style: none;
+  padding: 0;
+}
+.guide__places ul li, .guide__events ul li {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.guide__places ul li img, .guide__events ul li img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.guide__places ul li h4, .guide__events ul li h4 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.guide__places ul li p, .guide__events ul li p {
+  font-size: 1rem;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;

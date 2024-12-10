@@ -1,0 +1,37 @@
+title: Guide local
+options:
+  changeSlug: true
+  changeStatus: true
+  changeTemplate: false
+  delete: true
+  create: true
+  sort: true
+
+sections:
+  places_drafts:
+    headline: Lieux d'intérêt (Brouillons)
+    type: pages
+    status: draft
+    template: place
+    create:
+      template: place
+
+  places_published:
+    headline: Lieux d'intérêt (Publier)
+    type: pages
+    status: listed
+    template: place
+
+  events_drafts:
+    headline: Événements (Brouillons)
+    type: pages
+    status: draft
+    template: event
+    create:
+      template: event
+
+  events_published:
+    headline: Événements (Publier)
+    type: pages
+    status: listed
+    template: event

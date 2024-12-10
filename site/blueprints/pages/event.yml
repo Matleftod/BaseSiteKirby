@@ -1,0 +1,28 @@
+title: Événement
+fields:
+  title:
+    label: Nom
+    type: text
+    required: true
+
+  date:
+    label: Date de l'événement
+    type: date
+    required: true
+
+  description:
+    label: Description
+    type: textarea
+    required: true
+
+  location:
+    label: Localisation (coordonnées GPS)
+    type: text
+    required: true
+    help: "Entrez les coordonnées GPS sous la forme : latitude,longitude (ex. : 48.8566,2.3522)."
+
+  image:
+    label: Image
+    type: files
+    required: false
+    max: 1
