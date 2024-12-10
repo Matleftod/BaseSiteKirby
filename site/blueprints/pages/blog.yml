@@ -1,0 +1,12 @@
+title: Blog
+sections:
+  drafts:
+    type: pages
+    status: draft
+    template: article
+    create:
+      template: article
+  published:
+    type: pages
+    status: listed
+    template: article

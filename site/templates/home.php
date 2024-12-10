@@ -11,7 +11,7 @@
     <?php snippet('contact-form') ?>
     <?php snippet('carousel', ['block' => $page]) ?>
     <?php snippet('devis') ?>
-
+    <?php snippet('blog-list') ?>
 </main>
 
 <?php snippet('footer') ?>

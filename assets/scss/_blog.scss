@@ -1,0 +1,79 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.blog {
+  padding: 60px 20px;
+  background-color: $background-color-light;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    color: $primary-color;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  &__item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+
+    .blog__image {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+
+    .blog__article-title {
+      font-size: 1.5rem;
+      color: $primary-color;
+      margin: 0 0 10px 0;
+    }
+
+    .blog__meta {
+      font-size: 0.875rem;
+      color: $text-color-light;
+      margin-bottom: 15px;
+    }
+
+    .blog__excerpt {
+      font-size: 1rem;
+      color: $text-color;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .blog__tags {
+      font-size: 0.875rem;
+      color: $primary-color;
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

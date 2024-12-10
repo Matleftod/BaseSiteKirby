@@ -1,0 +1,61 @@
+Title: Article 1 Copier
+
+----
+
+Date: 2024-12-12
+
+----
+
+Author: Moi
+
+----
+
+Category: Lifestyle
+
+----
+
+Featured-image: - file://RGbHROaglcJ4ymp2
+
+----
+
+Excerpt: Bête d'agence
+
+----
+
+Tags: Tag1, Tag4
+
+----
+
+Meta-title: fff
+
+----
+
+Meta-description: ffff
+
+----
+
+Seo-meta-image: - file://RGbHROaglcJ4ymp2
+
+----
+
+Content: [{"content":{"text":"<p>KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v KJHFG,vods,v, jozrjjn izn nz n zoznvore vnn nzo n sdn,v</p>"},"id":"8c1e3ba8-d55c-4c24-afd6-9ed7e692148e","isHidden":false,"type":"text"}]
+
+----
+
+Seo:
+
+- 
+  meta_title: titre SEO
+  meta_description: Description SEO
+
+----
+
+Uuid: 5GmiGtKsUaVZDGNF
+
+----
+
+Seo-meta-title: ok
+
+----
+
+Seo-meta-description: oui
