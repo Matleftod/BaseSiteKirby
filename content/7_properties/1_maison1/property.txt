@@ -1,0 +1,29 @@
+Title: maison1
+
+----
+
+Description: ffkfkfkf
+
+----
+
+Images: - file://9wPsZkK07DEnz7KE
+
+----
+
+Location: 44.665666, -1.257803
+
+----
+
+Price: 50
+
+----
+
+Availability: true
+
+----
+
+Features: Zeub
+
+----
+
+Uuid: 7Elh7vOXXVBDloiG

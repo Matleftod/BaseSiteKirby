@@ -1,0 +1,16 @@
+title: Propriétés
+sections:
+  drafts:
+    type: pages
+    status: draft
+    template: property
+    create:
+      template: property
+      title: "Nouvelle Propriété"
+  published:
+    type: pages
+    status: listed
+    template: property
+    create:
+      template: property
+      title: "Nouvelle Propriété"

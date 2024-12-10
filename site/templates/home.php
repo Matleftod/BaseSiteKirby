@@ -13,6 +13,8 @@
     <?php snippet('devis') ?>
     <?php snippet('blog-list') ?>
     <?php snippet('faq') ?>
+    <?php snippet('map') ?>
+
 </main>
 
 <?php snippet('footer') ?>
