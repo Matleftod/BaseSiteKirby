@@ -919,6 +919,43 @@ html, body {
   color: #007bff;
 }
 
+.faq {
+  padding: 60px 20px;
+  background-color: #e2e2e2;
+}
+.faq__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+.faq__title {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq__item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.faq__item > .faq__question {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.faq__item > .faq__answer {
+  font-size: 1rem;
+  color: #343a40;
+  line-height: 1.5;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;

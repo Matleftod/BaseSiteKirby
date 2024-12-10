@@ -1,0 +1,20 @@
+title: FAQ
+fields:
+  questions:
+    label: Questions et réponses
+    type: structure
+    help: "Ajoutez les questions fréquemment posées avec leurs réponses."
+    fields:
+      question:
+        label: Question
+        type: text
+        required: true
+        help: "Entrez une question fréquemment posée."
+      answer:
+        label: Réponse
+        type: textarea
+        required: true
+        help: "Entrez la réponse à cette question."
+options:
+  preview: false
+  changeSlug: false

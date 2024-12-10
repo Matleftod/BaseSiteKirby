@@ -12,6 +12,7 @@
     <?php snippet('carousel', ['block' => $page]) ?>
     <?php snippet('devis') ?>
     <?php snippet('blog-list') ?>
+    <?php snippet('faq') ?>
 </main>
 
 <?php snippet('footer') ?>
