@@ -1,0 +1,39 @@
+title: Propriété
+fields:
+  title:
+    label: Nom de la propriété
+    type: text
+    required: true
+
+  description:
+    label: Description
+    type: textarea
+    required: true
+
+  images:
+    label: Images
+    type: files
+    template: image
+    multiple: true
+
+  location:
+    label: Localisation
+    type: text
+    required: true
+    help: "Entrez les coordonnées GPS sous la forme : latitude,longitude (ex. : 48.8566,2.3522)."
+
+  price:
+    label: Prix par nuit (€)
+    type: number
+    required: true
+
+  availability:
+    label: Disponibilité
+    type: toggle
+    text: Oui / Non
+    default: true
+
+  features:
+    label: Caractéristiques
+    type: tags
+    help: "Exemple : Piscine, WiFi, Parking."
