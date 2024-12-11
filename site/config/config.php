@@ -2,6 +2,7 @@
 
 return [
     'debug' => true,
+    'error' => 'error',
     'panel' => [
         'install' => true,
     ],
