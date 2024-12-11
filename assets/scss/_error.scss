@@ -1,0 +1,40 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.error {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: $background-color-light;
+
+  &__title {
+    font-size: 2.5rem;
+    color: $error-color;
+    margin-bottom: 20px;
+  }
+
+  &__message {
+    font-size: 1.2rem;
+    color: $text-color;
+    margin-bottom: 30px;
+  }
+
+  &__suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          color: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
+}
